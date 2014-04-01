@@ -41,6 +41,9 @@ namespace TfsGitApplication.Models
 
         [Display(Name = "Remember me?")]
         public bool RememberMe { get; set; }
+
+        [Display(Name = "Last Sign In")]
+        public System.DateTime LastSignedIn { get; set; }
     }
 
     public class RegisterViewModel
